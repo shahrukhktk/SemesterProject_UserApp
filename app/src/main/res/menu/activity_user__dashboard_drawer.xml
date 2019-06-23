@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Datesheet"
+            android:icon="@drawable/datesheeticon"
+            android:title="@string/menu_datesheet" />
+        <item
+            android:id="@+id/nav_Timetable"
+            android:icon="@drawable/timetable_icon"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_Announcement"
+            android:icon="@drawable/announcmemnticon"
+            android:title="@string/menu_announcement" />
+
+        <item
+            android:id="@+id/nav_aboutDeveloper"
+            android:icon="@drawable/developericon"
+            android:title="@string/menu_developer" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_feedback" />
+        </menu>
+    </item>
+
+</menu>

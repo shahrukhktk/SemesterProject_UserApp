@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Kust Events</string>
+
+    <string name="KUST_TITLE">KUST EVENTS</string>
+    <string name="DepartmentNameTitle">IIT DEPARTMENT</string>
+    <string name="welcometoapp">WELCOME TO KUST EVENTS</string>
+
+    <string name="AppTitle">Welcome To Kust Events</string>
+    <string name="loginButtonText">Login</string>
+    <string name="useremailtext">Email</string>
+    <string name="userpasswordtext">Password</string>
+    <string name="userPhoneNo">Phone Number...</string>
+    <string name="user_nameText">Full Name</string>
+    <string name="user_registerationNo">CS120....</string>
+    <string name="semesters">BSCS 1</string>
+
+    <string name="registerationTitle">REGISTER YOUR ACCOUNT</string>
+    <string name="RegisterButtonText">Register</string>
+    <string name="feedbackbtnText">Give Feedback</string>
+
+    <string name="AlreadyMemberButtonText">Already member</string>
+    <string name="NewMember">New Account</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="title_activity_user__dashboard">User_Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_datesheet">Datesheet</string>
+    <string name="menu_timetable">Timetable</string>
+    <string name="menu_announcement">Other Announcements</string>
+    <string name="menu_developer">About Developer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_feedback">Give Feedback</string>
+    <string name="developerName">Shah Rukh Khan</string>
+    <string name="developerSkills">UI UX DESIGNER | ANDRIOD DEVELOPER | \n|GRAPHIC DESIGNER</string>
+    <string name="studyingAt">Student At KUST</string>
+
+    <string-array name="userDepartment">
+        <item>IIT Department</item>
+        <item>IBS Department</item>
+        <item>English Department</item>
+        <item>Mathematics Department</item>
+    </string-array>
+
+    <string-array name="userSemester">
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+        <item>3rd Semester</item>
+        <item>4th Semester</item>
+        <item>5th Semester</item>
+        <item>6th Semester</item>
+        <item>7th Semester</item>
+        <item>8th Semester</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA801</color>
+    <color name="colorPrimaryDark">#EC9C08</color>
+    <color name="colorAccent">#EEA119</color>
+
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="nullback">#0000</color>
+    <color name="TitleColor">#FFA801</color>
+    <color name="Black">#000000</color>
+    <color name="mangocolor">#FFA407</color>
+    <color name="red">#FFFF0707</color>
+</resources>

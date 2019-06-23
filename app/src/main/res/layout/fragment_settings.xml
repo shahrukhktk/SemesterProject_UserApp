@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/user_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        />
+
+    <EditText
+        android:id="@+id/user_reg_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CS120...."
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:maxLength="11"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select Department"
+        android:textSize="18dp"
+        android:textColor="#F80707"
+        />
+
+    <Spinner
+        android:id="@+id/user_department_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select Semester"
+        android:textSize="18dp"
+        android:textColor="#F80707"
+        />
+
+    <Spinner
+        android:id="@+id/user_semester_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select Section"
+        android:textSize="18dp"
+        android:textColor="#F80707"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/user_section_A_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Section - A"
+            android:textSize="16dp"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            />
+        <RadioButton
+            android:id="@+id/user_section_B_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Section - B"
+            android:textSize="16dp"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save_user_data_btn_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save"
+        android:background="@drawable/buttonstyle"
+        android:textColor="@color/whiteColor"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>

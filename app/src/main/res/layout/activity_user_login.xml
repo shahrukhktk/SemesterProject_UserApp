@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/user_registeration_background_screen"
+    tools:context=".UserLogin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/kustlogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AppTitle"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/whiteColor"
+            android:fontFamily="@font/centurygothic"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/cardview"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/phoneNo_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userPhoneNo"
+            android:textColorHint="@color/whiteColor"
+            android:maxLength="50"
+            android:inputType="phone"
+            android:textColor="@color/whiteColor"
+            android:textSize="16dp"
+            android:fontFamily="@font/centurygothic"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            />
+
+        <Button
+            android:id="@+id/getVerificationCodeBTNID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:text="GET VERIFICATION CODE"
+            android:textColor="@color/whiteColor"
+            android:textSize="17dp"
+            android:shadowColor="@color/Black"
+            android:layout_margin="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/phoneNo_code_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Verification Code"
+            android:textColorHint="@color/whiteColor"
+            android:maxLength="50"
+            android:inputType="phone"
+            android:textColor="@color/whiteColor"
+            android:textSize="16dp"
+            android:fontFamily="@font/centurygothic"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            />
+
+        <Button
+            android:id="@+id/SIGNIN_BTN_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:text="Sign In"
+            android:textColor="@color/whiteColor"
+            android:textSize="17dp"
+            android:shadowColor="@color/Black"
+            android:layout_margin="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            ></View>
+
+    </LinearLayout>
+
+
+</LinearLayout>
